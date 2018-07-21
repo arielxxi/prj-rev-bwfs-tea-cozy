@@ -1,0 +1,150 @@
+/* Universal Styles */
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+    font-weight: bold
+}
+
+h2,h3,h4,h5{
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  font-size: 48px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+h5{
+  font-size: 18px;
+}
+
+p{
+  font-weight: normal;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* Main */
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+}
+
+/* Mission */
+#mission {
+    height: 700px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    padding-top: 70px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+/* Store */
+#store {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.item span{
+  padding-top: 10px;
+}
+
+/* Locations */
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 10px;
+}
+
+.location {
+    opacity: 1.0;
+    flex-basis: 300px;
+    padding: 10px;
+    margin: 15px 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Contact */
+#contact {
+    height: 200px;
+}
+
+/* Footer */
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
